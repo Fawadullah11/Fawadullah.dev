@@ -85,8 +85,13 @@ document.querySelector("#submit").addEventListener("click", () => {
     }, 1500);
   };
 })
+document.getElementById("hire").onclick = function () {
+  window.location.href = "https://wa.me/03174724221",target="blank";
+};
 
 
-
+document.getElementById("resume").onclick = function () {
+  window.location.href = "" ;
+};
 
 
